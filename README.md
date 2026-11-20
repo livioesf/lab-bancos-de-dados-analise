@@ -1,27 +1,28 @@
-# Laboratório de Administração de Banco de Dados: PostgreSQL
+# Laboratório de Bancos de Dados para Análise de Dados
 
-Laboratório prático de backup, recuperação e monitoramento de banco de dados, com runbooks de incidentes documentados.
+PostgreSQL, MySQL, SQL Server e Oracle: carga de dados, consultas analíticas, desempenho e runbooks de suporte.
 
 ## Objetivo
 
-Praticar rotinas reais de administração e suporte de banco de dados em PostgreSQL. Cada exercício é tratado como um incidente: o que aconteceu, como foi diagnosticado, como foi recuperado e quanto tempo levou.
+Praticar SQL e rotinas de suporte em quatro bancos relacionais, usando a mesma base de dados em todos. Cada exercício de suporte é tratado como um incidente: o que aconteceu, como foi diagnosticado, como foi recuperado e quanto tempo levou.
 
 ## Tecnologias
 
-- PostgreSQL
+- SQL
 - Docker e Docker Compose
 - Git e GitHub
 
-As ferramentas de linha de comando do PostgreSQL usadas em cada missão são listadas no runbook correspondente.
+Os bancos de dados são adicionados conforme cada missão é concluída, e as ferramentas usadas aparecem no runbook correspondente.
 
 ## Missões
 
 | # | Missão | Status |
 |---|--------|--------|
-| 01 | Backup e restore com desastre simulado | Planejada |
-| 02 | Backup físico e recuperação até um ponto no tempo | Planejada |
-| 03 | Monitoramento e diagnóstico de consulta lenta | Planejada |
-| 04 | Usuários, permissões e rotina de backup agendada | Planejada |
+| 01 | PostgreSQL: modelagem, carga dos dados, backup e restore com desastre simulado | Planejada |
+| 02 | PostgreSQL: consultas analíticas, views, plano de execução e índice | Planejada |
+| 03 | MySQL, SQL Server e Oracle: mesma carga e mesmas consultas, com a tabela de diferenças entre dialetos | Planejada |
+| 04 | Runbooks de suporte em cada banco: acesso, permissões e backup básico | Planejada |
+| 05 | Dashboard conectado ao banco | Planejada |
 
 ## Formato dos runbooks
 
