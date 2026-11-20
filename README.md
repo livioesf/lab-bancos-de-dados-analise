@@ -6,6 +6,12 @@ PostgreSQL, MySQL, SQL Server e Oracle: carga de dados, consultas analíticas, d
 
 Praticar SQL e rotinas de suporte em quatro bancos relacionais, usando a mesma base de dados em todos. Cada exercício de suporte é tratado como um incidente: o que aconteceu, como foi diagnosticado, como foi recuperado e quanto tempo levou.
 
+## Base de dados
+
+A base usada é o *Brazilian E-Commerce Public Dataset by Olist*, publicada no Kaggle: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce. Ela reúne cerca de 100 mil pedidos de 2016 a 2018, em nove tabelas relacionadas: clientes, geolocalização, pedidos, itens do pedido, pagamentos, avaliações, produtos, vendedores e tradução de categorias.
+
+Os arquivos não estão neste repositório. Para reproduzir o laboratório, baixe o zip na página acima e extraia os CSVs na pasta `dados/`, na raiz do projeto. Créditos à Olist pela disponibilização dos dados; a licença de uso é a informada na página do Kaggle.
+
 ## Tecnologias
 
 - SQL
