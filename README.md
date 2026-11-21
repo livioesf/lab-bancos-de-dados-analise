@@ -15,6 +15,7 @@ Os arquivos não estão neste repositório. Para reproduzir o laboratório, baix
 ## Tecnologias
 
 - SQL
+- PostgreSQL 16
 - Docker e Docker Compose
 - Git e GitHub
 
@@ -24,7 +25,7 @@ Os bancos de dados são adicionados conforme cada missão é concluída, e as fe
 
 | # | Missão | Status |
 |---|--------|--------|
-| 01 | PostgreSQL: modelagem, carga dos dados, backup e restore com desastre simulado | Planejada |
+| 01 | PostgreSQL: modelagem, carga dos dados, backup e restore com desastre simulado ([runbook](missao-01-postgresql/runbook-01-backup-restore.md)) | Concluída |
 | 02 | PostgreSQL: consultas analíticas, views, plano de execução e índice | Planejada |
 | 03 | MySQL, SQL Server e Oracle: mesma carga e mesmas consultas, com a tabela de diferenças entre dialetos | Planejada |
 | 04 | Runbooks de suporte em cada banco: acesso, permissões e backup básico | Planejada |
