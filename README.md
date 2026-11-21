@@ -67,7 +67,7 @@ erDiagram
 
 ## Como reproduzir
 
-Testado no Windows com Docker Desktop (WSL 2) e PowerShell. Pré-requisitos: Docker Desktop e Git.
+Comandos executados no Windows com Docker Desktop (WSL 2) e PowerShell. Pré-requisitos: Docker Desktop e Git.
 
 1. Clone o repositório e entre na pasta:
 
