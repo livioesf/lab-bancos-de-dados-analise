@@ -60,7 +60,7 @@ Os tempos foram medidos com `Measure-Command` em ambiente de laboratório local 
 ## Limitações
 
 - O backup lógico (`pg_dump`) guarda apenas o banco `olist`. Usuários e permissões do servidor ficam fora dele e precisam de um backup à parte.
-- Alterações feitas depois do backup seriam perdidas. Recuperar até um ponto exato no tempo exige backup físico e arquivamento de logs (Missão 02).
+- Alterações feitas depois do backup seriam perdidas. Recuperar até um ponto exato no tempo exige backup físico e arquivamento de logs (missão futura).
 
 ## Lições aprendidas
 
