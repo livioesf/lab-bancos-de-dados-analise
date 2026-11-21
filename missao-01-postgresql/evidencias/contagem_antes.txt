@@ -1,0 +1,13 @@
+            tabela            | linhas  
+------------------------------+---------
+ product_category_translation |      71
+ sellers                      |    3095
+ products                     |   32951
+ order_payments               |  103886
+ customers                    |   99441
+ order_reviews                |   99224
+ order_items                  |  112650
+ orders                       |   99441
+ geolocation                  | 1000163
+(9 rows)
+
