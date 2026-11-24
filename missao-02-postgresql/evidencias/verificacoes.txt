@@ -1,0 +1,18 @@
+=== V1. Pedidos entregues sem registro de pagamento ===
+ entregues_sem_pagamento 
+-------------------------
+                       1
+(1 row)
+
+=== V2. Pedidos entregues sem data de entrega ===
+ entregues_sem_data 
+--------------------
+                  8
+(1 row)
+
+=== V3. Soma da receita mensal (view) deve ser igual a receita total da Q2 ===
+ soma_mensal 
+-------------
+ 15422461.77
+(1 row)
+

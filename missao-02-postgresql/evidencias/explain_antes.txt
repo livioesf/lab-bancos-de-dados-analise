@@ -1,0 +1,20 @@
+                                                              QUERY PLAN                                                               
+---------------------------------------------------------------------------------------------------------------------------------------
+ Finalize Aggregate  (cost=14857.48..14857.49 rows=1 width=8) (actual time=29.560..31.342 rows=1 loops=1)
+   Buffers: shared hit=96 read=8552
+   ->  Gather  (cost=14857.26..14857.47 rows=2 width=8) (actual time=29.427..31.335 rows=3 loops=1)
+         Workers Planned: 2
+         Workers Launched: 2
+         Buffers: shared hit=96 read=8552
+         ->  Partial Aggregate  (cost=13857.26..13857.27 rows=1 width=8) (actual time=26.122..26.123 rows=1 loops=3)
+               Buffers: shared hit=96 read=8552
+               ->  Parallel Seq Scan on geolocation  (cost=0.00..13857.18 rows=32 width=0) (actual time=8.903..26.116 rows=49 loops=3)
+                     Filter: ((geolocation_zip_code_prefix)::text = '14409'::text)
+                     Rows Removed by Filter: 333339
+                     Buffers: shared hit=96 read=8552
+ Planning:
+   Buffers: shared hit=35
+ Planning Time: 0.197 ms
+ Execution Time: 31.428 ms
+(16 rows)
+

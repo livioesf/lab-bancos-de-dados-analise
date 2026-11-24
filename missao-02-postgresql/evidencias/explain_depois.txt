@@ -1,0 +1,14 @@
+                                                                  QUERY PLAN                                                                   
+-----------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregate  (cost=9.95..9.96 rows=1 width=8) (actual time=0.049..0.052 rows=1 loops=1)
+   Buffers: shared hit=4
+   ->  Index Only Scan using idx_geolocation_zip on geolocation  (cost=0.42..9.76 rows=76 width=0) (actual time=0.031..0.040 rows=147 loops=1)
+         Index Cond: (geolocation_zip_code_prefix = '14409'::text)
+         Heap Fetches: 0
+         Buffers: shared hit=4
+ Planning:
+   Buffers: shared hit=70
+ Planning Time: 0.299 ms
+ Execution Time: 0.104 ms
+(10 rows)
+
