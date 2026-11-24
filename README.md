@@ -111,7 +111,7 @@ Get-Content missao-01-postgresql\contagem.sql -Raw | docker exec -i lab-postgres
 docker exec -it lab-postgres psql -U lab_admin -d olist
 ```
 
-O usuário (`lab_admin`) e o banco (`olist`) são os valores do `.env.example`. Se você alterá-los no `.env`, ajuste os comandos acima. 
+Para reproduzir a Missão 02, execute na ordem os cinco scripts de `missao-02-postgresql/` (`01` a `05`), do mesmo modo que os scripts da Missão 01. Um exemplo de comando está no relatório da missão.
 
 ## Tecnologias
 
@@ -127,7 +127,7 @@ Os bancos de dados são adicionados conforme cada missão é concluída, e as fe
 | # | Missão | Status |
 |---|--------|--------|
 | 01 | PostgreSQL: modelagem, carga dos dados, backup e restore com desastre simulado ([runbook](missao-01-postgresql/runbook-01-backup-restore.md)) | Concluída |
-| 02 | PostgreSQL: consultas analíticas, views, plano de execução e índice | Planejada |
+| 02 | PostgreSQL: consultas analíticas, views, plano de execução e índice ([relatório](missao-02-postgresql/relatorio-02-analise-e-desempenho.md)) | Concluída |
 | 03 | MySQL, SQL Server e Oracle: mesma carga e mesmas consultas, com a tabela de diferenças entre dialetos | Planejada |
 | 04 | Runbooks de suporte em cada banco: acesso, permissões e backup básico | Planejada |
 | 05 | Dashboard conectado ao banco | Planejada |
